@@ -19,6 +19,6 @@
   * [특정 commit 과 history 내역을 삭제](VCS/Git/특정_commit과_history_내역을_삭제.md)
   * [이전 commit 메시지 수정](VCS/Git/이전_commit_메시지_수정.md)
   
-* [Git](VCS/JitPack/README.md)
+* [JitPack](VCS/JitPack/README.md)
   * [Publishing on JitPack](VCS/JitPack/publishing_on_JitPack.md)
   * [Building with JitPack](VCS/JitPack/building_with_JitPack.md)
