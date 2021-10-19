@@ -1,13 +1,13 @@
 # Visibility modifiers(접근제어자, 접근제한자)
 
-## 정
+## 정리
 
-|           | 같은 class | 같은 module    | 다른 module    | 제한 없음 |
-| --------- | -------- | ------------ | ------------ | ----- |
-| private   | O        |              |              |       |
-| protected | O        | (상속 받았을 때 O) | (상속 받았을 때 O) |       |
-| internal  | O        | O            |              |       |
-| public    | O        | O            | O            | O     |
+|           | 같은 class |   같은 module  |   다른 module  | 제한 없음 |
+| :-------: | :------: | :----------: | :----------: | :---: |
+|  private  |     O    |              |              |       |
+| protected |     O    | (상속 받았을 때 O) | (상속 받았을 때 O) |       |
+|  internal |     O    |       O      |              |       |
+|   public  |     O    |       O      |       O      |   O   |
 
 public > protected | internal > private
 
