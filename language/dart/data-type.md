@@ -13,6 +13,11 @@ void main() {
 
   String str1 = 'str1';
   print('$str1 - ${str1.runtimeType}');
+  
+  
+  // nullable, non-nullable
+  String? str2 = null
+  String str3 = 'non-nullable'
 }
 ```
 
