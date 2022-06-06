@@ -8,6 +8,7 @@
   * [Visibility modifiers(접근제어자, 접근제한자)](language/kotlin/visibility-modifiers.md)
 * [Dart](language/dart/README.md)
   * [Data Type](language/dart/data-type.md)
+  * [var와 dynamic](language/dart/var-dynamic.md)
 
 ## 🖥 IDE
 
