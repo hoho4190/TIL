@@ -9,6 +9,7 @@
 * [Dart](language/dart/README.md)
   * [Data Type](language/dart/data-type.md)
   * [var와 dynamic](language/dart/var-dynamic.md)
+  * [final과 const](language/dart/final-const.md)
 
 ## 🖥 IDE
 

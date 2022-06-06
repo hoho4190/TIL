@@ -1,16 +1,16 @@
 # var와 dynamic
 
-#### var와 dynamic의 공통점
+### var와 dynamic의 공통점
 
 둘 다 초기화된 값으로 타입이 결정
 
-#### var와 dynamic의 차이점
+### var와 dynamic의 차이점
 
 var는 타입이 한 번 결정되면 다른 타입으로 변경이 불가능
 
 dynamic은 다른 타입으로 계속 변경 가능
 
-#### 예제
+### 예제
 
 ```
 void main() {
