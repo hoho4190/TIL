@@ -6,6 +6,8 @@
 
 * [Kotlin](language/kotlin/README.md)
   * [Visibility modifiers(접근제어자, 접근제한자)](language/kotlin/visibility-modifiers.md)
+* [Dart](language/dart/README.md)
+  * [Data Type](language/dart/data-type.md)
 
 ## 🖥 IDE
 
@@ -15,7 +17,7 @@
 * [Visual Studio Code](IDE/Visual\_Studio\_Code/README.md)
   * [Extension](IDE/Visual\_Studio\_Code/extension.md)
 
-## 💾 VCS <a href="ide" id="ide"></a>
+## 💾 VCS <a href="#ide" id="ide"></a>
 
 * [Git](VCS/Git/README.md)
   * [계정 설정](VCS/Git/계정\_설정.md)
