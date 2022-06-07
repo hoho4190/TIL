@@ -51,10 +51,6 @@ class Person {
   void introduce() {
     print('${this.name}(${this.age}) 입니다.');
   }
-
-  void greet() {
-    print('안녕');
-  }
 }
 ```
 
