@@ -15,6 +15,7 @@
   * [typedef](language/dart/typedef.md)
   * [constructor](language/dart/constructor.md)
   * [private, getter && setter](language/dart/private-getter-and-and-setter.md)
+  * [Inheritance](language/dart/inheritance.md)
 
 ## 🖥 IDE
 
