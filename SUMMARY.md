@@ -12,6 +12,7 @@
   * [final과 const](language/dart/final-const.md)
   * [Operator](language/dart/operator.md)
   * [function과 parameter](language/dart/function-parameter.md)
+  * [typedef](language/dart/typedef.md)
 
 ## 🖥 IDE
 
