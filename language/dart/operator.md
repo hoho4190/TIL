@@ -23,3 +23,55 @@ void main() {
   print(num1 is! int); // false
 }
 ```
+
+### cascade notation
+
+하나의 오브젝트에 함수 호출, 필드 접근을 순차적으로 수행할 수 있음
+
+이 과정 중간에 어떤 값이 반환되더라도 무시됨
+
+```
+void main() {
+
+  // cascade notation
+  Person(name: 'foo', age: 1)
+      ..name = 'bar'
+      ..age = 99
+      ..introduce(); // bar(99) 입니다.
+}
+```
+
+```
+class Person {
+  String name;
+  int age;
+
+  Person({required this.name, required this.age});
+
+  void introduce() {
+    print('${this.name}(${this.age}) 입니다.');
+  }
+
+  void greet() {
+    print('안녕');
+  }
+}
+```
+
+### spread operator
+
+여러 개의 요소를 컬렉션에 간편하게 추가할 수 있음
+
+```
+void main() {
+
+  // spread operator
+  List<int> numList1 = [1, 2, 3];
+  List<int> numList2 = [4, 5, 6];
+  List<int> numList3 = [...numList1, 4, 5, 6];
+
+  print([numList1, numList2]); // [[1, 2, 3], [4, 5, 6]]
+  print([...numList1, ...numList2]); // [1, 2, 3, 4, 5, 6]
+  print(numList3); // [1, 2, 3, 4, 5, 6]
+}
+```

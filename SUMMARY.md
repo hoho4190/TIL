@@ -17,6 +17,7 @@
   * [private, getter && setter](language/dart/private-getter-and-and-setter.md)
   * [Inheritance](language/dart/inheritance.md)
   * [Interface](language/dart/interface.md)
+  * [Functional programming](language/dart/functional-programming.md)
 
 ## 🖥 IDE
 
