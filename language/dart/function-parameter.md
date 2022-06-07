@@ -15,7 +15,7 @@ String addStrings1(
 
 ### Optional parameter
 
-초기값이 있어야&#x20;
+초기값이 있어야 함
 
 ```
 void main() {
