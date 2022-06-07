@@ -13,6 +13,7 @@
   * [Operator](language/dart/operator.md)
   * [function과 parameter](language/dart/function-parameter.md)
   * [typedef](language/dart/typedef.md)
+  * [constructor](language/dart/constructor.md)
 
 ## 🖥 IDE
 
