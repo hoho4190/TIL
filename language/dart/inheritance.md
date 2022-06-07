@@ -55,7 +55,7 @@ void main() {
   Person foo = Person(name: 'foo', age: 20);
   foo.introduce();
 
-  print('-- cheolsu ----------');
+  print('-- Man ----------');
   Man cheolsu = Man('cheolsu', 30);
   cheolsu.introduce();
   cheolsu.introduceMan();
@@ -63,7 +63,7 @@ void main() {
   print('cheolsu is Person: ${cheolsu is Person}');  // true
   print('cheolsu is Man: ${cheolsu is Man}');        // true
 
-  print('-- younghee ----------');
+  print('-- Woman ----------');
   Woman younghee = Woman('younghee', 40);
   younghee.introduce();
   younghee.introduceWoman();
