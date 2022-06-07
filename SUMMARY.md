@@ -14,6 +14,7 @@
   * [function과 parameter](language/dart/function-parameter.md)
   * [typedef](language/dart/typedef.md)
   * [constructor](language/dart/constructor.md)
+  * [private, getter && setter](language/dart/private-getter-and-and-setter.md)
 
 ## 🖥 IDE
 
