@@ -1,6 +1,6 @@
 # Functional programming
 
-### 기본 형변
+### 기본 형변환
 
 ```
 void main() {

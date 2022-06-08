@@ -18,6 +18,9 @@
   * [Inheritance](language/dart/inheritance.md)
   * [Interface](language/dart/interface.md)
   * [Functional programming](language/dart/functional-programming.md)
+  * [Asynchronous programming](language/dart/asynchronous-programming/README.md)
+    * [Future](language/dart/asynchronous-programming/future.md)
+    * [Stream](language/dart/asynchronous-programming/stream.md)
 
 ## 🖥 IDE
 
