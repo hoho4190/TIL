@@ -89,11 +89,11 @@ import 'dart:async';
 
 void main() {
   calculate(2).listen((event) => print('calculate(2): $event'));
-  // calculate(2): 0
-  // calculate(2): 2
-  // calculate(2): 4
-  // calculate(2): 6
-  // calculate(2): 8
+  // calculate(2): 0 // 1초 대기 
+  // calculate(2): 2 // 1초 대기 
+  // calculate(2): 4 // 1초 대기 
+  // calculate(2): 6 // 1초 대기 
+  // calculate(2): 8 // 1초 대기 
 }
 
 Stream<int> calculate(int number) async* {
@@ -117,11 +117,11 @@ void main() {
   calculate(2).listen((event) => print('calculate(2): $event'));
   calculate(4).listen((event) => print('calculate(4): $event'));
   // calculate(2): 0
-  // calculate(4): 0
+  // calculate(4): 0 // 1초 대기
   // calculate(2): 2
-  // calculate(4): 4
+  // calculate(4): 4 // 1초 대기
   // calculate(2): 4
-  // calculate(4): 8
+  // calculate(4): 8 // 1초 대기
 }
 
 Stream<int> calculate(int number) async* {
@@ -146,10 +146,10 @@ void main() {
   });
   // 0
   // 1
-  // 2
+  // 2 // 1초 대기
   // 0
   // 1000
-  // 2000
+  // 2000 // 1초 대기
 }
 
 /**
