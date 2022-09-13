@@ -12,7 +12,7 @@ class Person {
   // getter
   String get name => this._name;
 
-  // setter - 오직 하나의 파라미터만 가능
+  // setter
   set name(String name) => this._name = name;
 
   void introduce() {
