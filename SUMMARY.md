@@ -44,4 +44,5 @@
 * [JitPack](service/jitpack/README.md)
   * [Publishing on JitPack](service/jitpack/publishing\_on\_jitpack.md)
   * [Building with JitPack](service/jitpack/building\_with\_jitpack.md)
-* [AWS](service/aws.md)
+* [AWS](service/aws/README.md)
+  * [CLI](service/aws/cli.md)
