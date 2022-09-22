@@ -1,6 +1,6 @@
 # CLI
 
-## 1. \[CLI 설치]\([https://aws.amazon.com/ko/cli/](https://aws.amazon.com/ko/cli/))
+## 1. [CLI 설치](https://aws.amazon.com/ko/cli/)
 
 {% embed url="https://aws.amazon.com/ko/cli/" %}
 
