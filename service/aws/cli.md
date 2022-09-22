@@ -1,6 +1,8 @@
 # CLI
 
-## 1. CLI 설치[https://app.gitbook.com/s/MoINKrBZikr6jLvVf7P1/\~/changes/aT8EVZPiBZ1ASnfxJZIQ/service/aws/cli#1.](https://app.gitbook.com/s/MoINKrBZikr6jLvVf7P1/\~/changes/aT8EVZPiBZ1ASnfxJZIQ/service/aws/cli#1.)
+## 1. \[CLI 설치]\([https://aws.amazon.com/ko/cli/](https://aws.amazon.com/ko/cli/))
+
+{% embed url="https://aws.amazon.com/ko/cli/" %}
 
 ### 1.1. macOS
 
@@ -8,7 +10,7 @@
 
 ### 1.2. Windows
 
-msi 파일 다운로드하여 설
+msi 파일 다운로드하여 설치
 
 ### 1.3. 설치 확인
 
