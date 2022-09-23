@@ -46,3 +46,4 @@
   * [Building with JitPack](service/jitpack/building\_with\_jitpack.md)
 * [AWS](service/aws.md)
   * [CLI](service/aws/cli.md)
+  * [SSM Session manager를 통해 서버 접속](service/aws/ssm-session-manager.md)
