@@ -8,14 +8,11 @@ SSH Key 없이 서버 접속 가능, SSH port 관리 필요 없음
 
 Private subnet이어도 bastion host 없이 서버 접속 가능
 
-## 1. 서버 설정
+## 1. EC2 Instance 설정
 
-### 1.1. [AWS CLI 설치](cli.md)
+SSM Agent가 설치되어 있어야 하지만 EC2 Instance에는 기본적으로 설치되어 있음
 
-### 1.2. Session Manager Plugin 설치
-
-* [Linux용 EC2 인스턴스에서 SSM Agent 사용](https://docs.aws.amazon.com/ko\_kr/systems-manager/latest/userguide/sysman-install-ssm-agent.html)
-  * Amazon Linux의 경우 설치되어 있음
+### 1.1. [SSM Agent 상태 확인 및 에이전트 시작](https://docs.aws.amazon.com/ko\_kr/systems-manager/latest/userguide/ssm-agent-status-and-restart.html)
 
 ## 2. IAM 설정
 
@@ -103,7 +100,18 @@ SSM > 노드 관리 > 세션 관리자 > 기본 설정
 
 ## 6. SSM으로 서버 접속하기
 
-### 6.1. 서버 접속
+SSM으로 서버에 접속하기 위해서는 아래 2가지가 설치되어 있어야 함
+
+1. AWS CLI
+2. Session Manager plugin
+
+### 6.1. [AWS CLI 설치 및 설정](cli.md)
+
+### 6.2. Session Manager plugin 설치
+
+[AWS CLI용 Session Manager 플러그인 설치](https://docs.aws.amazon.com/ko\_kr/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html) 참고
+
+### 6.3. 서버 접속
 
 ```shell
 $ aws ssm start-session --target "[EC2 Instance ID]"
