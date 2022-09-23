@@ -47,3 +47,4 @@
 * [AWS](service/aws.md)
   * [CLI](service/aws/cli.md)
   * [SSM Session manager를 통해 서버 접속](service/aws/ssm-session-manager.md)
+  * [CI/CD with AWS, GitHub Actions](service/aws/ci-cd-with-aws-github-actions.md)
