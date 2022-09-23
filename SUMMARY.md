@@ -30,14 +30,14 @@
 * [Visual Studio Code](IDE/Visual\_Studio\_Code/README.md)
   * [Extension](IDE/Visual\_Studio\_Code/extension.md)
 
-## 💾 VCS <a href="#ide" id="ide"></a>
+## 💾 VCS
 
-* [Git](VCS/Git/README.md)
-  * [계정 설정](VCS/Git/계정\_설정.md)
-  * [Commit convention](VCS/Git/commit\_convention.md)
-  * [파일 변동 추적 및 삭제](VCS/Git/파일\_변동\_추적\_및\_삭제.md)
-  * [특정 commit 과 history 내역을 삭제](VCS/Git/특정\_commit과\_history\_내역을\_삭제.md)
-  * [이전 commit 메시지 수정](VCS/Git/이전\_commit\_메시지\_수정.md)
+* [Git](vcs/git/README.md)
+  * [계정 설정](vcs/git/\_.md)
+  * [Commit convention](vcs/git/commit\_convention.md)
+  * [파일 변동 추적 및 삭제](vcs/git/\_-\_-\_-\_.md)
+  * [특정 commit 과 history 내역을 삭제](vcs/git/\_commit-\_history\_-\_.md)
+  * [이전 commit 메시지 수정](vcs/git/\_commit\_-\_.md)
 
 ## 🚀 Service
 
