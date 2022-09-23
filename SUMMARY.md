@@ -52,4 +52,5 @@
 ## 💻 Linux
 
 * [Package manager](linux/package-manager.md)
-* [시간 설정](linux/undefined.md)
+* [시간 설정](linux/시간\_설정.md)
+* [OpenJDK](linux/OpenJDK.md)
