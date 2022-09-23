@@ -10,7 +10,7 @@ Private subnet이어도 bastion host 없이 서버 접속 가능
 
 ## 1. 서버 설정
 
-### 1.1. [AWS CLI 설치](ssm-session-manager.md#1.1.-aws-cli)
+### 1.1. [AWS CLI 설치](cli.md)
 
 ### 1.2. Session Manager Plugin 설치
 
@@ -103,9 +103,7 @@ SSM > 노드 관리 > 세션 관리자 > 기본 설정
 
 ## 6. SSM으로 서버 접속하기
 
-### 6.1. AWS CLI 설정
-
-### 6.2. 서버 접속
+### 6.1. 서버 접속
 
 ```shell
 $ aws ssm start-session --target "[EC2 Instance ID]"
