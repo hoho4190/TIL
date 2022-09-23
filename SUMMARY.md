@@ -52,3 +52,4 @@
 ## 💻 Linux
 
 * [Package manager](linux/package-manager.md)
+* [시간 설정](linux/undefined.md)
