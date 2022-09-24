@@ -49,31 +49,3 @@
   // commit hash
   implementation("com.github.jitpack:gradle-simple:COMMIT_HASH")
   ```
-
-- branch-SNAPSHOT (replace ‘branch’ with any branch name, e.g. master)
-  - `-SNAPSHOT`을 추가하면 마스터 브랜치에 최신 커밋이 빌드됩니다.
-  ```kotlin
-  // dependency on the latest commit in the master branch
-  implementation("com.github.jitpack:gradle-simple:master-SNAPSHOT")
-  ```
-
-### SNAPSHOT 빌드를 캐시 관련
-Gradle은 SNAPSHOT 빌드를 캐시할 수 있습니다. Gradle이 항상 빌드의 **최신** 버전을 선택하도록 설정이 필요합니다.
-
-- build.gradle.kts 추가
-  ```kotlin
-  // 캐시하지 않음
-  configurations.all {
-    resolutionStrategy.cacheChangingModulesFor(0, TimeUnit.SECONDS)
-  }
-  ```
-  - 새 스냅샷을 빌드하는 데 시간이 걸릴 수 있으므로 Gradle 시간 초과를 늘려야 할 수 있습니다.
-
-- 터미널
-  ```bash
-  $ gradlew build --refresh-dependencies
-  ```
-
-## Reference
-- [Jitpack Docs](https://jitpack.io/docs/)
-- [Private Repositories](https://jitpack.io/docs/PRIVATE/)

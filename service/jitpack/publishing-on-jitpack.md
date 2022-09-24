@@ -61,17 +61,3 @@ tasks.jar {
 [![Release](https://jitpack.io/v/User/Repo.svg)]
 (https://jitpack.io/#User/Repo)
 ```
-
-## Release
-1. Github Release 생성
-2. [JitPack](https://jitpack.io)에서 repository 검색
-3. Log 확인
-
-## 예제
-- [ex-gradle-library](https://github.com/hoho4190/ex-gradle-library)
-
-## Reference
-- [Jitpack Docs](https://jitpack.io/docs/)
-- [Private Repositories](https://jitpack.io/docs/PRIVATE/)
-- [Maven Publish Plugin](https://docs.gradle.org/current/userguide/publishing_maven.html)
-- [Building Kotlin Libraries Sample](https://docs.gradle.org/current/samples/sample_building_kotlin_libraries.html)

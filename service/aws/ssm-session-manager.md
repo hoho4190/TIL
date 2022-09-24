@@ -32,7 +32,7 @@ IAM > 엑세스 관리 > 역할 > 역할 만들기
 
 EC2 > 인스턴스 > 상단 작업 > 보안 > IAM 역할 수정
 
-* [2.1. 단계](ssm-session-manager.md#2.1.-iam)에서 만든 IAM 역할 선택&#x20;
+* [2.1. 단계](ssm-session-manager.md#2.1.-iam)에서 만든 IAM 역할 선택
 
 ## 3. CloudWatch 설정
 

@@ -24,27 +24,31 @@
 
 ## 🖥 IDE
 
-* [IntelliJ](IDE/IntelliJ/README.md)
-  * [설정](IDE/IntelliJ/설정.md)
-  * [Plugin](IDE/IntelliJ/plugin.md)
-* [Visual Studio Code](IDE/Visual\_Studio\_Code/README.md)
-  * [Extension](IDE/Visual\_Studio\_Code/extension.md)
+* [IntelliJ](ide/IntelliJ/README.md)
+  * [설정](ide/IntelliJ/설정.md)
+  * [Plugin](ide/IntelliJ/plugin.md)
+* [Visual Studio Code](ide/visual-studio-code/README.md)
+  * [Extension](ide/visual-studio-code/extension.md)
 
 ## 💾 VCS
 
 * [Git](vcs/git/README.md)
-  * [계정 설정](vcs/git/\_.md)
-  * [Commit convention](vcs/git/commit\_convention.md)
-  * [파일 변동 추적 및 삭제](vcs/git/\_-\_-\_-\_.md)
-  * [특정 commit 과 history 내역을 삭제](vcs/git/\_commit-\_history\_-\_.md)
-  * [이전 commit 메시지 수정](vcs/git/\_commit\_-\_.md)
+  * [계정 설정](vcs/git/계정-설정.md)
+  * [Commit convention](vcs/git/commit-convention.md)
+  * [파일 변동 추적 및 삭제](vcs/git/파일-변동-추적-및-삭제.md)
+  * [특정 commit과 history 내역을 삭제](vcs/git/특정-commit과-history-내역을-삭제.md)
+  * [이전 commit 메시지 수정](vcs/git/이전-commit-메시지-수정.md)
 
 ## 🚀 Service
 
+* [GitHub](service/github/README.md)
+  * [Actions](service/github/actions/README.md)
+    * [유용한 플러그인](service/github/actions/유용한-플러그인.md)
+  * [Branch 보호 규칙](service/github/branch-보호-규칙.md)
 * [JitPack](service/jitpack/README.md)
-  * [Publishing on JitPack](service/jitpack/publishing\_on\_jitpack.md)
-  * [Building with JitPack](service/jitpack/building\_with\_jitpack.md)
-* [AWS](service/aws.md)
+  * [Publishing on JitPack](service/jitpack/publishing-on-jitpack.md)
+  * [Building with JitPack](service/jitpack/building-with-jitpack.md)
+* [AWS](service/aws/README.md)
   * [CLI](service/aws/cli.md)
   * [SSM Session manager를 통해 서버 접속](service/aws/ssm-session-manager.md)
   * [CI/CD with AWS, GitHub Actions](service/aws/ci-cd-with-aws-github-actions.md)
@@ -52,5 +56,5 @@
 ## 💻 Linux
 
 * [Package manager](linux/package-manager.md)
-* [시간 설정](linux/시간\_설정.md)
+* [시간 설정](linux/시간-설정.md)
 * [OpenJDK](linux/OpenJDK.md)

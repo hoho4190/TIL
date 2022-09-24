@@ -1,4 +1,4 @@
-# 특정 commit 과 history 내역을 삭제
+# 특정 commit과 history 내역을 삭제
 - reset --mixed 옵션을 이용하여 현재 working directory를 유지한 채 특정 커밋으로 이동
 - 특정 커밋 이후의 커밋들은 사라짐
 - push -f 옵션으로 푸시
