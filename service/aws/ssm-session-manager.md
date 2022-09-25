@@ -64,7 +64,7 @@ S3 > 버킷 > \[버킷 선택] > 관리: 수명 주기 규칙 생성
 * 규칙 범위 선택 - 하나 이상의 필터를 사용하여 이 규칙의 범위 제한
 * 접두사: session-manager/
 * 수명 주기 규칙 작업(각자 설정)
-  * 객체의 현재 버전 만료 - 객체 생성 후 경과 일수: 30
+  * 객체의 현재 버전 만료 - 객체 생성 후 경과 일수: 180
 
 ## 5. Session manager 설정
 
@@ -87,7 +87,7 @@ SSM > 노드 관리 > 세션 관리자 > 기본 설정
   * S3 logging
     * Send session logs to S3: Enable
     * Enforce encryption - Allow only encrypted S3 buckets: X
-    * 4.1. 단계에서 생성한 S3 버킷 선택
+    * [4.1. 단계](ssm-session-manager.md#4.1.)에서 생성한 S3 버킷 선택
     * S3 키 접두사: session-manager
     *   Linux shell profile:
 
