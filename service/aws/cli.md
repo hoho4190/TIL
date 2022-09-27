@@ -69,10 +69,10 @@ $ aws configure list-profiles
 
 ```
 # linux
-$ export AWS_DEFAULT_PROFILE=testUser
+$ export AWS_DEFAULT_PROFILE=PROFILE_NAME
 
 # windows
-$ set AWS_DEFAULT_PROFILE=testUser
+$ set AWS_DEFAULT_PROFILE=PROFILE_NAME
 ```
 
 ### 3.4. 사용 예시
