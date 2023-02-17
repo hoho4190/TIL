@@ -156,7 +156,7 @@ void main() {
  * Future의 await와 비슷하게 작동
  */
 Stream<int> playAllStream() async* {
-  yield* calculate(1); // calculate(1)의 스트림이 끝날때까지 기다림
+  yield* calculate(1); // yield*: calculate(1)의 스트림이 끝날때까지 기다림
   yield* calculate(1000);
 }
 
