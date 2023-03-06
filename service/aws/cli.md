@@ -6,7 +6,8 @@
 
 ### 1.1. macOS
 
-<pre class="language-shell"><code class="lang-shell"><strong>$ brew install aws</strong></code></pre>
+<pre class="language-shell"><code class="lang-shell"><strong>$ brew install aws
+</strong></code></pre>
 
 ### 1.2. Windows
 
@@ -74,6 +75,10 @@ $ export AWS_DEFAULT_PROFILE=PROFILE_NAME
 # windows
 $ set AWS_DEFAULT_PROFILE=PROFILE_NAME
 ```
+
+{% hint style="info" %}
+설정 파일 경로 `~/.aws/credentials, ~/.aws/config`
+{% endhint %}
 
 ### 3.4. 사용 예시
 
