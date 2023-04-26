@@ -27,6 +27,7 @@
 * [IntelliJ](ide/IntelliJ/README.md)
   * [설정](ide/IntelliJ/설정.md)
   * [Plugin](ide/IntelliJ/plugin.md)
+  * [Keymap, Live Templates](ide/intellij/keymap-live-templates.md)
 * [Visual Studio Code](ide/visual-studio-code/README.md)
   * [Extension](ide/visual-studio-code/extension.md)
 
