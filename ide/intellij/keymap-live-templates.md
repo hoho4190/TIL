@@ -29,7 +29,7 @@ description: 자주 사용하는 것 정리
 
 ### Live Templates 추가
 
-Abbreviation: tdd
+Abbreviation: bdd
 
 ```java
 @Test  
