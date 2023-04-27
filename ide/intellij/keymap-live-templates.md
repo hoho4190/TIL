@@ -18,6 +18,7 @@ description: 자주 사용하는 것 정리
 | Introduce Variable         | **⌥⌘V**        | **Ctrl+Alt+V**       |       |
 | Introduce Parameter        | **⌥⌘P**        | **Ctrl+Alt+P**       |       |
 | Complete Current Statement | **⇧⌘⏎**        | **Ctrl+Shift+Enter** |       |
+| Go to Test                 | **⇧⌘T**        |                      |       |
 | Run                        | **⌃R**         |                      |       |
 
 ## Live Templates
