@@ -16,6 +16,7 @@ description: 자주 사용하는 것 정리
 | Reformat Code              | **⌥⌘L**        | **Ctrl+Alt+L**       |       |
 | Inline Variable            | **⌥⌘N**        | **Ctrl+Alt+N**       |       |
 | Introduce Variable         | **⌥⌘V**        | **Ctrl+Alt+V**       |       |
+| Introduce Parameter        | **⌥⌘P**        | **Ctrl+Alt+P**       |       |
 | Complete Current Statement | **⇧⌘⏎**        | **Ctrl+Shift+Enter** |       |
 | Run                        | **⌃R**         |                      |       |
 
