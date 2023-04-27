@@ -43,7 +43,7 @@ void $MethodName$() {
 }
 ```
 
-| name       | Expression                  | Default value | Skip if defined |
-| ---------- | --------------------------- | ------------- | --------------- |
-| DpName     |                             |               |                 |
-| MethodName | spacesToUnderscores(DpName) | test          | V               |
+| name       | Expression                                                      | Default value | Skip if defined |
+| ---------- | --------------------------------------------------------------- | ------------- | --------------- |
+| DpName     |                                                                 |               |                 |
+| MethodName | regularExpression(spacesToUnderscores(DpName), "\__-\__", "\_") | test          | V               |
