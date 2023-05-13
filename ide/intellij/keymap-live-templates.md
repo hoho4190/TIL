@@ -21,6 +21,7 @@ description: 자주 사용하는 것 정리
 | Go to Test                 | **⇧⌘T**        | **Ctrl+Shift+T**     |                    |
 | Run                        | **⌃R**         | **Shift+F10**        |                    |
 | Resent Files               | **⌘E**         | **Ctrl+E**           | **⌘E⏎ - 이전 파일 이동** |
+| Paste From History         | **⇧⌘V**        | **Ctrl+Shift+V**     |                    |
 
 ## Live Templates
 
@@ -46,10 +47,32 @@ void $MethodName$() {
 }
 ```
 
-| name       | Expression                                                                                                     | Default value | Skip if defined |
-| ---------- | -------------------------------------------------------------------------------------------------------------- | ------------- | --------------- |
-| DpName     |                                                                                                                |               |                 |
-| MethodName | regularExpression(regularExpression(DpName, "\[\\(+\\)+\\\[+\\]+]", ""), "(\s)_(,+\|\s+\|-+\|\_+)(\s)_", "\_") | test          | V               |
+| name       | Expression                                                                                                        | Default value | Skip if defined |
+| ---------- | ----------------------------------------------------------------------------------------------------------------- | ------------- | --------------- |
+| DpName     |                                                                                                                   |               |                 |
+| MethodName | regularExpression(regularExpression(DpName, "\[\\(+\\)+\\\[+\\]+]", ""), "((\s)_(,+\|\s+\|-+\|\_+)(\s)_)+", "\_") | test          | V               |
+
+#### Abbreviation: bddp
+
+```java
+@ParameterizedTest
+@DisplayName("$DpName$")
+@$Source$
+void $MethodName$($Argument$) {
+    // given
+    $END$
+    // when
+    
+    // then
+}
+```
+
+| name       | Expression                                                                                                        | Default value | Skip if defined |
+| ---------- | ----------------------------------------------------------------------------------------------------------------- | ------------- | --------------- |
+| DpName     |                                                                                                                   |               |                 |
+| Source     |                                                                                                                   |               |                 |
+| MethodName | regularExpression(regularExpression(DpName, "\[\\(+\\)+\\\[+\\]+]", ""), "((\s)_(,+\|\s+\|-+\|\_+)(\s)_)+", "\_") | test          | V               |
+| Argument   |                                                                                                                   |               |                 |
 
 #### Abbreviation: nestedc
 
@@ -61,10 +84,10 @@ class $ClassName$ {
 }
 ```
 
-| name      | Expression                                                                                                     | Default value | Skip if defined |
-| --------- | -------------------------------------------------------------------------------------------------------------- | ------------- | --------------- |
-| DpName    |                                                                                                                |               |                 |
-| ClassName | regularExpression(regularExpression(DpName, "\[\\(+\\)+\\\[+\\]+]", ""), "(\s)_(,+\|\s+\|-+\|\_+)(\s)_", "\_") | test          | V               |
+| name      | Expression                                                                                                        | Default value | Skip if defined |
+| --------- | ----------------------------------------------------------------------------------------------------------------- | ------------- | --------------- |
+| DpName    |                                                                                                                   |               |                 |
+| ClassName | regularExpression(regularExpression(DpName, "\[\\(+\\)+\\\[+\\]+]", ""), "((\s)_(,+\|\s+\|-+\|\_+)(\s)_)+", "\_") | test          | V               |
 
 #### Abbreviation: ld, li, le
 
