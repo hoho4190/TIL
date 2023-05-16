@@ -109,3 +109,17 @@ log.debug("$EXPR_COPY$ = {}", $EXPR$);
 | ---------- | ------------------ | ------------- | --------------- |
 | EXPR       | variableOfType("") | "expr"        |                 |
 | EXPR\_COPY | escapeString(EXPR) |               | V               |
+
+#### Abbreviation: ldmp
+
+Description: Prints current method name, params, values to Logger
+
+```java
+log.debug($FORMAT$);
+```
+
+| name   | Expression                                                                                                                                                                                             | Default value | Skip if defined |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- | --------------- |
+| FORMAT | groovyScript( "'"' + \_1 + (\_2.isEmpty() ? '' : ' - ' + \_2.collect{it + ' = {}'}.join(', ')) + '"' + (\_2.isEmpty() ? '' : ', ' + \_2.collect{it}.join(', ')) " , methodName(), methodParameters() ) |               | V               |
+
+#### Abbreviation: ld, li, le
