@@ -2,7 +2,7 @@
 
 * [TIL](README.md)
 
-## 🗣 Language
+## 🗣️ Language
 
 * [Kotlin](language/kotlin/README.md)
   * [Visibility modifiers(접근제어자, 접근제한자)](language/kotlin/visibility-modifiers.md)
@@ -22,7 +22,7 @@
     * [Future](language/dart/asynchronous-programming/future.md)
     * [Stream](language/dart/asynchronous-programming/stream.md)
 
-## 🖥 IDE
+## 🖥️ IDE
 
 * [IntelliJ](ide/IntelliJ/README.md)
   * [설정](ide/IntelliJ/설정.md)
@@ -39,6 +39,7 @@
   * [파일 변동 추적 및 삭제](vcs/git/파일-변동-추적-및-삭제.md)
   * [특정 commit과 history 내역을 삭제](vcs/git/특정-commit과-history-내역을-삭제.md)
   * [이전 commit 메시지 수정](vcs/git/이전-commit-메시지-수정.md)
+  * [Local commit 취소](vcs/git/local-commit.md)
 
 ## 🚀 Service
 
